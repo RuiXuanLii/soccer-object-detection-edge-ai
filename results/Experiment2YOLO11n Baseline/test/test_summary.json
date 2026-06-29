@@ -1,0 +1,40 @@
+{
+  "weights": "/home/zel/projects/football_detection/runs/baseline_yolo11n_img960_e50/weights/best.pt",
+  "data": "/home/zel/projects/football_detection/datasets/robo/data.yaml",
+  "split": "test",
+  "save_dir": "/home/zel/projects/football_detection/runs/test_best_yolo11n",
+  "mp": 0.7949448221730002,
+  "mr": 0.8060238095238095,
+  "map50": 0.8019350574330792,
+  "map50_95": 0.5665009290220752,
+  "class_names": {
+    "0": "ball",
+    "1": "goalkeeper",
+    "2": "player",
+    "3": "referee"
+  },
+  "precision_per_class": [
+    0.6483677422589804,
+    0.9110047875264463,
+    0.8900154394232376,
+    0.7303913194833369
+  ],
+  "recall_per_class": [
+    0.2916666666666667,
+    1.0,
+    0.986,
+    0.9464285714285714
+  ],
+  "map50_per_class": [
+    0.35249976689976686,
+    0.9480000000000002,
+    0.987996666370859,
+    0.9192437964616912
+  ],
+  "map50_95_per_class": [
+    0.1030781351981352,
+    0.7492130288957689,
+    0.7939589474567186,
+    0.6197536045376779
+  ]
+}
